@@ -1,7 +1,12 @@
 aid: infilla
 name: Infilla
-description: Infilla is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Infilla is a permitting software platform that modernizes housing approvals for cities
+  and municipal planning departments. Its product suite—a fee Calculator, a guided Application Form
+  for permit intake, and digital Plan Check checklists—cuts response times, eliminates repetitive
+  administrative work, and accelerates housing production. Founded and led by CEO Jenny Song after
+  research with 300+ planners across 50+ jurisdictions, Infilla targets permitting as a major barrier
+  to housing development by equipping government staff to work faster and better serve their communities.
+  No public API, developer portal, SDK, or machine-readable specification is published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/infilla/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,30 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/DcmCv15uRdcOHm5gjO7u7z1AprY.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Government
+- GovTech
+- Permitting
+- Housing
+- Urban Planning
+- Municipal Software
+- Civic Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/infilla-domain-security.yml
 - type: Website
   url: https://www.infilla.com/
+- type: TermsOfService
+  url: https://www.infilla.com/termsofuse
+- type: PrivacyPolicy
+  url: https://www.infilla.com/privacypolicy
+- type: Contact
+  url: https://www.infilla.com/contact
+- type: About
+  url: https://www.infilla.com/about-us
+- type: Careers
+  url: https://www.infilla.com/careers
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
